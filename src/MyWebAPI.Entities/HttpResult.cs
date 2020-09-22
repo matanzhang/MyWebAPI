@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MyWebAPI.Entities
 {
-    public class Class1
+    public class HttpResult
     {
+        public bool Success { get; set; }
+        public dynamic Data { get; set; }
+        public string Message { get; set; }
     }
 }
